@@ -1,0 +1,6 @@
+framework module JKRxRealm {
+  umbrella header "JKRxRealm-umbrella.h"
+
+  export *
+  module * { export * }
+}

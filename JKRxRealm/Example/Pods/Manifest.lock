@@ -1,0 +1,33 @@
+PODS:
+  - JKRxRealm (0.0.1):
+    - RealmSwift (~> 4.0)
+    - RxSwift (~> 5.0)
+  - Realm (4.4.1):
+    - Realm/Headers (= 4.4.1)
+  - Realm/Headers (4.4.1)
+  - RealmSwift (4.4.1):
+    - Realm (= 4.4.1)
+  - RxSwift (5.1.1)
+
+DEPENDENCIES:
+  - JKRxRealm (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Realm
+    - RealmSwift
+    - RxSwift
+
+EXTERNAL SOURCES:
+  JKRxRealm:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JKRxRealm: b6754270eb09920ac24ee73c91d9521c834dba2c
+  Realm: 4eb04d7487bd43c0581256f40b424eafb711deff
+  RealmSwift: 3eb8924ff7100df5928c7602f71d0fec51e7c9c5
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+
+PODFILE CHECKSUM: 3fe13f8c8170fca813a4a891ea96e9a874eb306e
+
+COCOAPODS: 1.9.1

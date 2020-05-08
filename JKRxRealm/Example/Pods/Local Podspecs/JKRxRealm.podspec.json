@@ -1,0 +1,33 @@
+{
+  "name": "JKRxRealm",
+  "version": "0.0.1",
+  "summary": "A short description of JKRxRealm.",
+  "swift_versions": "5.0",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/JekinChou/JKRxRealm",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JekinChou": "454200568@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/JekinChou/JKRxRealm.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JKRxRealm/Classes/**/*.swift",
+  "frameworks": "Foundation",
+  "dependencies": {
+    "RealmSwift": [
+      "~> 4.0"
+    ],
+    "RxSwift": [
+      "~> 5.0"
+    ]
+  },
+  "swift_version": "5.0"
+}

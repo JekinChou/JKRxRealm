@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://cdn.cocoapods.org/'
+use_frameworks!
+
+target 'JKRxRealm_Example' do
+  pod 'JKRxRealm', :path => '../'
+
+  target 'JKRxRealm_Tests' do
+    inherit! :search_paths
+  end
+end
