@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JKRxRealm'
-  s.version          = '0.0.2'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of JKRxRealm.'
   s.swift_version    = "5.0"
 # This description is used to generate tags and improve search results.
